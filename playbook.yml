@@ -2,15 +2,7 @@
 - name: Testing roles
   hosts: all
   become: true
-  pre_tasks:
-    - name: Pre-task
-    - shell: echo 'hello in pre'
-
   roles:
     - prerequisites
     - mongodb
     - nodejs
-
-  post_tasks:
-    - name: Post-task
-    - shell: echo 'hello in post'
