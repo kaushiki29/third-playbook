@@ -1,5 +1,8 @@
 ---
 roles:
   - name: prerequisites
+    src: kaushiki29.prerequisites
   - name: mongodb
+    src: kaushiki29.mongodb
   - name: nodejs
+    src: kaushiki29.nodejs
